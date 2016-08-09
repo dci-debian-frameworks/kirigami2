@@ -23,6 +23,7 @@ Package: kirigami
 Architecture: any
 Depends: plasma-framework,
          qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtgraphicaleffects,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
