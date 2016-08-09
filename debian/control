@@ -1,0 +1,37 @@
+Source: kirigami
+Section: kde
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
+Build-Depends: cmake,
+               debhelper (>= 9.0.0~),
+               extra-cmake-modules,
+               libkf5declarative-dev,
+               pkg-kde-tools,
+               plasma-framework-dev,
+               qtbase5-dev,
+               qtdeclarative5-dev
+Standards-Version: 3.9.8
+Homepage: https://projects.kde.org/kirigami
+Vcs-Browser: https://github.com/plasma-phone-packaging/kirigami
+Vcs-Git: https://github.com/plasma-phone-packaging/kirigami
+
+Package: kirigami
+Architecture: any
+Depends: plasma-framework,
+         qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtquick2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: kirigami components
+ A QtQuick based components set.
+
+Package: kirigami-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: kirigami (= ${binary:Version}), ${misc:Depends}
+Description: kirigami components
+ A QtQuick based components set.
+ .
+ This package contains the debugging symbols.
