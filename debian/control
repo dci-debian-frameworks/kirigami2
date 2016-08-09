@@ -6,6 +6,7 @@ XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0~),
                extra-cmake-modules,
+               kdoctools-dev,
                libkf5declarative-dev,
                libqt5svg5-dev,
                pkg-kde-tools,
