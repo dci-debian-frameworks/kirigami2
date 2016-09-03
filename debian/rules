@@ -2,5 +2,7 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
+override_dh_auto_configure:
+	$(overridden_command) -- -DBUILD_EXAMPLES=ON
 override_dh_strip:
 	$(overridden_command) --dbg-package=kirigami-dbg
