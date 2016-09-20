@@ -1,3 +1,9 @@
+kirigami (1.0.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 20 Sep 2016 13:39:43 +0000
+
 kirigami (1.0.1-0neon) xenial; urgency=medium
 
   * New release
