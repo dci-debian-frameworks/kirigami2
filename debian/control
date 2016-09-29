@@ -20,7 +20,7 @@ Homepage: https://projects.kde.org/kirigami
 Vcs-Browser: https://github.com/plasma-phone-packaging/kirigami
 Vcs-Git: https://github.com/plasma-phone-packaging/kirigami
 
-Package: kirigami
+Package: qml-module-org-kde-kirigami
 Architecture: any
 Depends: plasma-framework,
          qml-module-org-kde-kquickcontrolsaddons,
