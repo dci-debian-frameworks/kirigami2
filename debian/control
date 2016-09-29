@@ -2,6 +2,7 @@ Source: kirigami
 Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
 XSBC-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0~),
