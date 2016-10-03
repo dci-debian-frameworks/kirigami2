@@ -17,8 +17,8 @@ Build-Depends: cmake (>= 2.8.12~),
                qttools5-dev-tools
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/kirigami
-Vcs-Browser: https://github.com/plasma-phone-packaging/kirigami
-Vcs-Git: https://github.com/plasma-phone-packaging/kirigami
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
 
 Package: qml-module-org-kde-kirigami
 Architecture: any
