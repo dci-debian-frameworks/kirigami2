@@ -44,14 +44,9 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: kirigami-dev
 Architecture: any
-Depends: plasma-framework,
-         qml-module-org-kde-kquickcontrolsaddons,
-         qml-module-qtgraphicaleffects,
-         qml-module-qtquick2,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Replaces: kirigami (<< ${source:Version}~ciBuild)
-Breaks: kirigami (<< ${source:Version}~ciBuild)
+Depends: qml-module-org-kde-kirigami, ${misc:Depends}, ${shlibs:Depends}
+Replaces: kirigami (<< 1.1.0-1)
+Breaks: kirigami (<< 1.1.0-1)
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
