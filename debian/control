@@ -32,8 +32,6 @@ Depends: kpackagelauncherqml,
          qml-module-qtquick2,
          ${misc:Depends},
          ${shlibs:Depends}
-Replaces: kirigami (<< ${source:Version}~ciBuild)
-Breaks: kirigami (<< ${source:Version}~ciBuild)
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
