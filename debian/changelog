@@ -1,3 +1,9 @@
+kirigami2 (2.0.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 12 Jan 2017 12:36:09 +0000
+
 kirigami2 (1.80.0-0neon) UNRELEASED; urgency=medium
 
   * Kirigami 2 package
