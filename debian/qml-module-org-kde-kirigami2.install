@@ -1,5 +1,2 @@
-usr/bin/kirigami2gallery
 usr/lib/*/qt5/qml/org/kde/kirigami.2/
-usr/share/applications/org.kde.kirigami2.gallery.desktop
-usr/share/kpackage/genericqml/org.kde.kirigami2.gallery/
 usr/share/locale
