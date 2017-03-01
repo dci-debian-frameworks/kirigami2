@@ -23,8 +23,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
 
 Package: qml-module-org-kde-kirigami2
 Architecture: any
-Depends: kpackagelauncherqml,
-         plasma-framework,
+Depends: plasma-framework,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtgraphicaleffects,
          qml-module-qtqml-models2,
@@ -64,9 +63,12 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: kirigami-gallery
 Architecture: any
-Depends: qml-module-org-kde-kirigami2, ${misc:Depends}, ${shlibs:Depends}
-Breaks: qml-module-org-kde-kirigami2 (<< ${source:Version}~ciBuild)
-Replaces: qml-module-org-kde-kirigami2 (<< ${source:Version}~ciBuild)
+Depends: kpackagelauncherqml,
+         qml-module-org-kde-kirigami2,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
+Replaces: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
 Description: set of QtQuick components targeted for mobile use
  Kirigami is a set of QtQuick components at the moment targeted for
  mobile use (in the future desktop as well) targeting both Plasma
