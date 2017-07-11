@@ -1,6 +1,6 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kirigami
-Source: https://quickgit.kde.org/?p=kirigami.git
+Source: https://cgit.kde.org/kirigami.git
 
 Files: *
 Copyright: 2009, Alan Alpert <alan.alpert@nokia.com>
