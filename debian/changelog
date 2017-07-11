@@ -1,3 +1,13 @@
+kirigami2 (2.2.0-1~) UNRELEASED; urgency=medium
+
+  * Initial debian release
+  * Update copyright information
+  * Disable tests at build time
+  * Bump Standards-Version to 4.0.0, no changes needed.
+  * debian/watch: use https
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 11 Jul 2017 19:12:55 +0200
+
 kirigami2 (2.2.0-0neon) xenial; urgency=medium
 
   * New release
@@ -15,39 +25,3 @@ kirigami2 (2.0.0-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Thu, 12 Jan 2017 12:36:09 +0000
-
-kirigami2 (1.80.0-0neon) UNRELEASED; urgency=medium
-
-  * Kirigami 2 package
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Dec 2016 14:31:26 +0000
-
-kirigami (1.1.0-1) unstable; urgency=medium
-
-  * Initial Debian release.
-
- -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Oct 2016 18:48:42 +0200
-
-kirigami (1.1.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 26 Sep 2016 11:53:18 +0000
-
-kirigami (1.0.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 20 Sep 2016 13:39:43 +0000
-
-kirigami (1.0.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Wed, 10 Aug 2016 15:20:12 +0000
-
-kirigami (1.0.0-0) xenial; urgency=medium
-
-  * Initial release.
-
- -- Bhushan Shah <bshah@kde.org>  Mon, 14 Mar 2016 11:39:57 +0530
