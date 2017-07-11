@@ -1,0 +1,3 @@
+Tests: testsuite
+Depends: @, @builddeps@, xvfb, qtdeclarative5-dev-tools
+Restrictions: build-needed
