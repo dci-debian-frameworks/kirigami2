@@ -3,4 +3,4 @@
 export QT_SELECT=5
 
 xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
-    dh_auto_test
+    debian/tests/testsuite.xsession
