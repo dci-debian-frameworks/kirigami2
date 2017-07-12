@@ -1,12 +1,13 @@
-kirigami2 (2.2.0-1~) UNRELEASED; urgency=medium
+kirigami2 (2.2.0-1) experimental; urgency=medium
 
   * Initial debian release
   * Update copyright information
   * Disable tests at build time
   * Bump Standards-Version to 4.0.0, no changes needed.
   * debian/watch: use https
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 11 Jul 2017 19:12:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jul 2017 11:00:00 +0200
 
 kirigami2 (2.2.0-0neon) xenial; urgency=medium
 
