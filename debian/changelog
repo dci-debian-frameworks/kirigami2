@@ -5,9 +5,9 @@ kirigami2 (2.2.0-1) experimental; urgency=medium
   * Disable tests at build time
   * Bump Standards-Version to 4.0.0, no changes needed.
   * debian/watch: use https
-  * UNRELEASED
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jul 2017 11:00:00 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jul 2017 13:09:33 +0200
 
 kirigami2 (2.2.0-0neon) xenial; urgency=medium
 
