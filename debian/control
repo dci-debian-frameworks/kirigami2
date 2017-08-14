@@ -3,16 +3,16 @@ Section: kde
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9~),
-               extra-cmake-modules (>= 0.0.8~),
+               extra-cmake-modules (>= 5.37.0~),
                kdoctools-dev,
                libkf5declarative-dev,
-               libqt5svg5-dev (>= 5.5.0~),
+               libqt5svg5-dev (>= 5.7.0~),
                pkg-kde-tools,
                plasma-framework-dev (>= 5.18.0~),
-               qtbase5-dev (>= 5.5.0~),
-               qtdeclarative5-dev (>= 5.5.0~),
+               qtbase5-dev (>= 5.7.0~),
+               qtdeclarative5-dev (>= 5.7.0~),
                qtquickcontrols2-5-dev,
                qttools5-dev-tools
 Standards-Version: 4.0.0
