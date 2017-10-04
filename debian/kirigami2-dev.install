@@ -1,4 +1,4 @@
 usr/include/KF5/Kirigami2/
 usr/lib/*/cmake/KF5Kirigami2
+usr/lib/*/libKF5Kirigami2.so
 usr/lib/*/qt5/mkspecs
-usr/lib/x86_64-linux-gnu/libKF5Kirigami2.so
