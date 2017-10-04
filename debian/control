@@ -51,6 +51,7 @@ Package: kirigami2-dev
 Architecture: any
 Depends: libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-org-kde-kirigami2 (= ${binary:Version}),
+         qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: set of QtQuick components targeted for mobile use
