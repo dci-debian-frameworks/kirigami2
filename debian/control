@@ -15,6 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                qml-module-qtgraphicaleffects,
                qtbase5-dev (>= 5.5.0~),
                qtdeclarative5-dev (>= 5.5.0~),
+               qtdeclarative5-dev-tools,
                qtquickcontrols2-5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.8
