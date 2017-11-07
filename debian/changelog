@@ -1,3 +1,9 @@
+kirigami2 (5.39.0-0neon) UNRELEASED; urgency=medium
+
+  * Now in frameworks
+
+ -- Jonathan Riddell <jr@jriddell.org>  Tue, 07 Nov 2017 17:15:49 +0000
+
 kirigami2 (2.2.0-0neon) xenial; urgency=medium
 
   * New release
