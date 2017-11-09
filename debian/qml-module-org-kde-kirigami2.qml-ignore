@@ -1,3 +1,2 @@
-QtQuick.Controls.Material[2.0]
-QtQuick.Controls.Material[2.1]
-QtQuick.Controls.Material.impl[2.1]
+QtQuick.Controls.Material
+QtQuick.Controls.Material.impl
