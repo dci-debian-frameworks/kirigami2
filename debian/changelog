@@ -4,6 +4,14 @@ kirigami2 (5.38.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:50:49 +0200
 
+kirigami2 (5.37.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Change build-dependency from qttools5-dev-tools to qttools5-dev.
+    (Closes: #881076)
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 08 Nov 2017 17:01:56 +0300
+
 kirigami2 (5.37.0-2) sid; urgency=medium
 
   * New revision
