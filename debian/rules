@@ -4,7 +4,7 @@
 	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_auto_configure:
-	dh_auto_configure -- -DBUILD_EXAMPLES=ON
+	dh_auto_configure -- -DBUILD_EXAMPLES=ON -DBUILD_QCH=ON
 
 override_dh_auto_test:
 	# Disable unittest at build time, they require the runtime

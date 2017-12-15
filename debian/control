@@ -5,17 +5,20 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9~),
+               doxygen,
                extra-cmake-modules (>= 5.41.0~),
                git,
+               graphviz,
                kdoctools-dev,
                libkf5declarative-dev,
+               libkf5plasma-dev (>= 5.41.0~),
                libqt5svg5-dev (>= 5.7.0~),
                pkg-kde-tools,
-               libkf5plasma-dev (>= 5.41.0~),
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev (>= 5.7.0~),
                qtquickcontrols2-5-dev,
                qttools5-dev,
+               qttools5-dev-tools (>= 5.7),
 Standards-Version: 4.1.2
 Homepage: https://cgit.kde.org/kirigami.git/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami2.git
@@ -64,6 +67,7 @@ Description: set of QtQuick components targeted for mobile use
  This package contains the development files.
 
 Package: libkf5kirigami2-5
+Section: libs
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: set of QtQuick components targeted for mobile use
