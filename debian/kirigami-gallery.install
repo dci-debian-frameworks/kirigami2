@@ -1,3 +1,4 @@
 usr/bin/kirigami2gallery
 usr/share/applications/org.kde.kirigami2.gallery.desktop
 usr/share/kpackage/genericqml/org.kde.kirigami2.gallery/
+usr/share/metainfo/org.kde.kirigami2.gallery.appdata.xml
