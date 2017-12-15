@@ -1,9 +1,10 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DBUILD_EXAMPLES=ON
+	dh_auto_configure -- -DBUILD_EXAMPLES=ON
 
 override_dh_auto_test:
 	# Disable unittest at build time, they require the runtime
