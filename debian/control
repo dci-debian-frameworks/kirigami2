@@ -22,8 +22,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami2.git
 
 Package: kirigami-gallery
 Architecture: any
-Depends: libkf5kirigami2-5 (= ${binary:Version}),
-         kpackagelauncherqml,
+Depends: kpackagelauncherqml,
+         libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends},
