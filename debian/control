@@ -23,7 +23,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami2.git
 Package: kirigami-gallery
 Architecture: any
 Depends: kpackagelauncherqml,
-         libkf5kirigami2-5 (= ${binary:Version}),
          qml-module-org-kde-kirigami2,
          ${misc:Depends},
          ${shlibs:Depends},
@@ -82,7 +81,8 @@ Description: set of QtQuick components targeted for mobile use
 
 Package: qml-module-org-kde-kirigami2
 Architecture: any
-Depends: plasma-framework,
+Depends: libkf5kirigami2-5 (= ${binary:Version}),
+         plasma-framework,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtgraphicaleffects,
          qml-module-qtqml-models2,
